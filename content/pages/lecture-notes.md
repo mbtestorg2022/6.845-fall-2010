@@ -11,34 +11,336 @@ This section contains [scribe notes](#Scribe_Notes) from the Fall 2008 version o
 
 All scribe notes are courtesy of MIT students, and are used with permission.
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| 1 | Quantum basics | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec01)) |
-| 2 | More quantum basics | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec02)) |
-| 3 | Quantum circuits | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec03)) |
-| 4 | BQP and classical friends | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec04)) |
-| 5 | Quantum algorithms: Deutsch-Jozsa | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec05)) |
-| 6 | Quantum algorithms: Simon's algorithm | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec06)) |
-| 7 | Shor's algorithm and the hidden subgroup problem | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec07)) |
-| 8 | Hidden subgroup problem and Grover's algorithm | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec08)) |
-| 9 | Grover's algorithm and BBBV | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec09)) |
-| 10 | Quantum query complexity lower bounds | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec10)) |
-| 11 | More quantum query complexity | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec11)) |
-| 12 | Query complexity and the collision problem | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec12)) |
-| 13 | The collision problem | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec13)) |
-| 14 | BQP vs. PH and QMA | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec14)) |
-| 15 | QMA | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec15)) |
-| 16 | QMA and variants | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec16)) |
-| 17 | QIP | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec17)) |
-| 18 | PostBQP | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec18)) |
-| 19 | Closed timelike curves | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec19)) (Courtesy of Joshua Horowitz. Used with permission.) |
-| 20 | BQP/qpoly | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec20)) |
-| 21 | Quantum communication complexity | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec21)) (Courtesy of Colin Jia Zheng. Used with permission.) |
-| 22 | More quantum communication complexity | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec22)) (Courtesy of Colin Jia Zheng. Used with permission.) |
-| 23 | Classical simulation | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec23)) |
-| 24 | Grab bag | ([PDF]({{< baseurl >}}/resources/mit6_845f10_lec24)) |
-| 25 | Student project presentations | &nbsp; |
-| 26 | Student project presentations (cont.) |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum basics
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+More quantum basics
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum circuits
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+BQP and classical friends
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum algorithms: Deutsch-Jozsa
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum algorithms: Simon's algorithm
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Shor's algorithm and the hidden subgroup problem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Hidden subgroup problem and Grover's algorithm
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Grover's algorithm and BBBV
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum query complexity lower bounds
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+More quantum query complexity
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Query complexity and the collision problem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+The collision problem
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+BQP vs. PH and QMA
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+QMA
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec15))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+QMA and variants
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec16))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+QIP
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec17))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+PostBQP
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec18))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Closed timelike curves
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec19)) (Courtesy of Joshua Horowitz. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+BQP/qpoly
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec20))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Quantum communication complexity
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec21)) (Courtesy of Colin Jia Zheng. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+More quantum communication complexity
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec22)) (Courtesy of Colin Jia Zheng. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Classical simulation
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec23))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Grab bag
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_845f10_lec24))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Student project presentations
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Student project presentations (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "Additional_Slides" >}}{{< /anchor >}}Additional Slides
 ------------------------------------------------------------------
